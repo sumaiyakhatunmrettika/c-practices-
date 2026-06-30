@@ -1,8 +1,14 @@
-#include<stdio.h>
-#include<stdbool.h>
-int main(){
-    int mark;
-    scanf("%d",&mark);
-    bool
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        if(i%5==0)
+        printf("%d yes\n",i);
+        else
+        printf("%d no\n",i);
+    }
     return 0;
 }
